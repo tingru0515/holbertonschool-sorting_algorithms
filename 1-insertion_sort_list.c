@@ -72,6 +72,7 @@ void swap_forward(listint_t *c)
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *c;
+
 	if ((list == NULL) || (*list == NULL) || ((*list)->next == NULL))
 		return;
 	c = *list;
