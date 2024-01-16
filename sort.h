@@ -18,5 +18,6 @@ typedef struct listint_s
 } listint_t;
 
 void print_array(const int *array, size_t size);
+void swap(int *a, int *b);
 
 #endif /* SORT_H */
